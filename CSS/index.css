@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+h5{
+    text-align: center;
+    margin: 0;
+    letter-spacing: 8px;
+}
+#main-wrap{
+   display: flex;
+   justify-content: center;
+   margin-top: 4%;
+   background-color: white;
+   position: relative;
+   
+}
+#inp-wrap{
+    background-color: rgb(253, 253, 111);
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#c_tip{
+    width: 42px;
+    
+}
+#no_of_people{
+    border-radius: 5px;
+}
+#bill{
+   margin-right: 3%;
+   border-radius: 5px;
+}
+.margins{
+    margin-top: 3%;
+}
+.margin_botm{
+    margin-bottom: 5%;
+}
+#reset{
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(231, 223, 223);
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 1%;
+    transition: 112ms;
+    font-weight: 400;
+}
+#reset:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 181, 138);
+    border-color: rgb(255, 181, 138);
+}
+.tipvalue{
+    width: 50px;
+    cursor: pointer;
+    transition: 112ms;
+    background-color: white;
+    border-color: white;
+}
+.tipvalue:hover{
+    transform: scale(1.1);
+}
+.tipvalue:focus{
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+#bill-wrap{
+    background-color: rgb(39, 70, 111);
+    width: 15%;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+}
+
+#tip_tag{
+    margin-top: 13%;
+margin-bottom: 10%;
+margin-left: 2%;
+color: white;
+
+}
+#total_tag{
+    margin-left: 2%;
+    color: white;
+}
+#tip_total{
+    position: absolute;
+    top: 16%;
+   right: 37%;
+   color: rgb(255, 254, 254);
+}
+#bill_total{
+    position: absolute;
+        top: 55%;
+        right: 37%;
+       
+}
+.person{
+    font-size: 8px;
+}
